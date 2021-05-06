@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html type="pt-br">
+<head>
+	<title>Calculadora</title>
+	<link href="css/style.css" rel="stylesheet" />
+	<meta charset="utf-8" />
+</head>
+<body>
+	<div class="title">Calculadora</div><!--title-->
+	<table>
+		<tr>
+			<td colspan="3"><input type="text" disabled="disabled" id="result" /></td>
+			<td><input style="background-color: blue;"  type="button" value="C" onclick="clr()" /></td>
+		</tr>
+
+
+
+		<tr>
+			<td><input type="button" value="1" onclick="dis('1')" /></td>
+			<td><input type="button" value="2" onclick="dis('2')" /></td>
+			<td><input type="button" value="3" onclick="dis('3')" /></td>
+			<td><input type="button" value="/" onclick="dis('/')" /></td>
+		
+
+
+
+		<tr>
+			<td><input type="button" value="4" onclick="dis('4')"/></td>
+			<td><input type="button" value="5" onclick="dis('5')"/></td>
+			<td><input type="button" value="6" onclick="dis('6')"/></td>
+			<td><input type="button" value="-" onclick="dis('-')"/></td>
+		</tr>
+
+
+
+		<tr>
+			<td><input type="button" value="7" onclick="dis('7')" /></td>
+			<td><input type="button" value="8" onclick="dis('8')" /></td>
+			<td><input type="button" value="9" onclick="dis('9')" /></td>
+			<td><input type="button" value="+" onclick="dis('+')" /></td>
+		</tr>
+
+
+		<tr>
+			<td><input type="button" value="." onclick="dis('.')" /></td>
+			<td><input type="button" value="0" onclick="dis('0')" /></td>
+			<td><input type="button" value="=" onclick="solve()" /></td>
+			<td><input type="button" value="*" onclick="dis('*')" /></td>
+		</tr>
+	</table>
+
+
+<script src="functions.js"></script>
+</body>
+</html>
